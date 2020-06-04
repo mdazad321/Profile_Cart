@@ -1,9 +1,11 @@
 *{padding:0;
 margin:0;
 }
-body{background-color:#f1f1f1;
+body{background-color:#fff;
 margin:0;padding:0;
 }
+.navcss li{font-weight:500; transition-duration: 1s;letter-spacing: 1px}
+.navcss li:hover{color: orangered}
 .cart{max-width:350px;
     border-radius: 5px;
     border:1px solid rgb(223, 191, 191);
@@ -16,8 +18,18 @@ transition-duration: 0.3s;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2);
 .cart_image img{width: 100%}
 .cart_content {
     text-align: center;
-    margin-top: 10px;color: #635536;z-index: 1;
+    margin-top: 10px;
+    color: #635536;
+    z-index: 1;
+    
 }
+.cart_content h1,h4,p{transition-duration: 1s;text-transform: capitalize}
+.cart_content h1:hover{color:orangered;
+    cursor: pointer;
+    }
+.cart_content h4:hover{color: orangered}
+.cart_content p:hover{color: orangered}
+
 .profile_image {
     
     z-index: 1;
